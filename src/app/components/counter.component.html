@@ -1,0 +1,10 @@
+<div class="counter-component">
+	<div class="counter-value">
+		Counter value: <br> {{ counter.value }}
+	</div>
+  <div class="counter-desc">
+		<span>Last refresh: </span><br>{{ lastRefresh }}
+	</div>
+  <button class="counter-btn" (click)="triggerDecrease()">-</button>
+  <button class="counter-btn" (click)="triggerIncrease()">+</button>
+</div>
